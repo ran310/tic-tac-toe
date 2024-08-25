@@ -39,7 +39,7 @@ function Board() {
   } else if (squares.every(Boolean)) {
     status = 'Draw';
   } else {
-    status = 'Next player : ' + (xIsNext ? 'X' : 'O');
+    status = 'Next player is: ' + (xIsNext ? 'X' : 'O');
   }
 
   return (
